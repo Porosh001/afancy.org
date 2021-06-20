@@ -1,62 +1,97 @@
-export default {
-  // Disable server-side rendering: https://go.nuxtjs.dev/ssr-mode
-  ssr: false,
+let APP_NAME    = 'Afancy';
+let APP_URL     = "http://localhost:3000";
 
-  // Target: https://go.nuxtjs.dev/config-target
+export default {
+  telemetry: false,
+  ssr: false,
   target: 'static',
   generate: {
     dir: 'docs'
   },
 
-  // Global page headers: https://go.nuxtjs.dev/config-head
+
   head: {
-    title: 'afancy.org',
+    title: APP_NAME,
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: '' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      // header
+        // bootstrap + bootstrap icons
+          { rel: 'stylesheet', href: '/core/bootstrap_v5_0_1/css/bootstrap.min.css' },
+          { rel: 'stylesheet', href: 'https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css' }
+    ],
+    script: [
+      // header
+      // footer
+        // bootstrap
+          { src: "/core/bootstrap_v5_0_1/js/bootstrap.bundle.min.js", body: true }
     ]
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
+    '@afancy/afancy/dist/css/afancy.css'
   ],
 
-  // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
+  loading: {
+    color: 'blue',
+    failedColor: 'red',
+    background: '#212529',
+    height: '5px',
+    continuous: true
+  },
+
   plugins: [
+    '@/plugins/afancy'
   ],
 
-  // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,
 
-  // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
-    // https://go.nuxtjs.dev/typescript
     '@nuxt/typescript-build',
+    '@nuxtjs/moment',
+    '@nuxtjs/google-fonts'
   ],
-
-  // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
-    // https://go.nuxtjs.dev/axios
     '@nuxtjs/axios',
-    // https://go.nuxtjs.dev/pwa
     '@nuxtjs/pwa',
   ],
 
-  // Axios module configuration: https://go.nuxtjs.dev/config-axios
   axios: {},
-
-  // PWA module configuration: https://go.nuxtjs.dev/pwa
   pwa: {
     manifest: {
-      lang: 'en'
+      name: APP_NAME,
+      lang: 'en',
+      background_color: '#8a2be2',
+      theme_color: '#8a2be2'
+    },
+    meta: {
+      theme_color: '#8a2be2' 
     }
   },
 
-  // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
+  },
+
+
+  googleFonts: {
+    display: 'swap',
+    families: {
+      Nosifer: true,
+      Monoton: true
+    }
+  },
+
+  publicRuntimeConfig: {
+    base: {
+      APP_NAME,
+      APP_TITLE: " || "+APP_NAME,
+      APP_URL
+    }
   }
+
 }
