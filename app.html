@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html {{ HTML_ATTRS }}>
+<head {{ HEAD_ATTRS }}>
+  <style scoped>
+    html{
+      scrollbar-color: #198754 #212529;
+      scrollbar-width: thin;
+    }
+    html::-webkit-scrollbar{
+      width: 6px;
+    }
+    html::-webkit-scrollbar-thumb{
+      background-color: #198754;
+    }
+    html::-webkit-scrollbar-track{
+      background-color: #212529;
+    }
+  </style>
+  {{ HEAD }}
+</head>
+<body {{ BODY_ATTRS }}      class='bg-dark text-light'>
+
+
+  {{ APP }}
+
+
+</body>
+</html>
