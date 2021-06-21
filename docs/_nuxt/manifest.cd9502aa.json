@@ -1,5 +1,5 @@
 {
-  "name": "afancy.org",
+  "name": "Afancy",
   "short_name": "afancy.org",
   "description": "## Build Setup",
   "icons": [
@@ -48,6 +48,7 @@
   ],
   "start_url": "/?standalone=true",
   "display": "standalone",
-  "background_color": "#ffffff",
+  "background_color": "#8a2be2",
+  "theme_color": "#8a2be2",
   "lang": "en"
 }
