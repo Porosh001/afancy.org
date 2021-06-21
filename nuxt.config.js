@@ -1,5 +1,7 @@
 let APP_NAME    = 'Afancy';
 let APP_URL     = "http://localhost:3000";
+let Last_Updated_Flag      = "https://cdn.jsdelivr.net/npm/organized-data@2.0.0/flags/svg/bd.svg";
+let Last_Updated_DateTime  = "UTC+6 2021-June-21 04:33:44";
 
 export default {
   telemetry: false,
@@ -34,7 +36,8 @@ export default {
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
-    '@afancy/afancy/dist/css/afancy.css'
+    '@afancy/afancy/dist/css/afancy.css',
+    'highlight.js/styles/devibeans.css'
   ],
 
   loading: {
@@ -90,7 +93,9 @@ export default {
     base: {
       APP_NAME,
       APP_TITLE: " || "+APP_NAME,
-      APP_URL
+      APP_URL,
+      Last_Updated_Flag,
+      Last_Updated_DateTime,
     }
   }
 
