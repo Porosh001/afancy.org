@@ -85,7 +85,8 @@ export default {
     display: 'swap',
     families: {
       Nosifer: true,
-      Monoton: true
+      Monoton: true,
+      'Fredericka the Great': true
     }
   },
 
