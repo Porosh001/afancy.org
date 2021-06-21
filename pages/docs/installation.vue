@@ -13,7 +13,7 @@
     <hljs lang='sh'>
     # install afancy in nuxt application
     yarn add @afancy/afancy
-    # or,
+    # or
     npm i @afancy/afancy
     </hljs>
 
