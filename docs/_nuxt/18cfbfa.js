@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[5],{442:function(t,n,e){"use strict";e.r(n);var c=e(0).a.extend({created:function(){this.$router.push("/docs/installation")}}),l=e(8),component=Object(l.a)(c,(function(){var t=this.$createElement;return(this._self._c||t)("div")}),[],!1,null,null,null);n.default=component.exports}}]);
