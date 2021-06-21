@@ -1,5 +1,5 @@
 import Vue from 'vue';
-import {default as Afancy} from '@afancy/afancy/src';
+import Afancy from '@afancy/afancy/src';
 
 
 
