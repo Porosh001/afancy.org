@@ -29,9 +29,6 @@
       "@types/node"
     ]
   },
-  "include": [
-    "plugins/*.d.ts"
-  ],
   "exclude": [
     "node_modules",
     ".nuxt",
