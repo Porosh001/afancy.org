@@ -60,7 +60,9 @@
 
 <script lang="ts">
 import Vue from 'vue';
+import hljs from '@/components/afancy/hljs.vue';
 export default Vue.extend({
+  components: {hljs},
   head() {
     return {
       title: 'Installation' + this.$config.base.APP_TITLE,

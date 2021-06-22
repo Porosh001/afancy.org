@@ -68,7 +68,9 @@
 
 
 <script>
+import hljs from '@/components/afancy/hljs.vue';
 export default {
+  components: {hljs},
   head() {
     return {
       title: 'Cursor' + this.$config.base.APP_TITLE
