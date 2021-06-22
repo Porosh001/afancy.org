@@ -89,3 +89,13 @@ sw.*
 
 # Vim swap files
 *.swp
+
+
+
+
+
+### added by imithu
+#
+plugins/afancy.js
+
+
