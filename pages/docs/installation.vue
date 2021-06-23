@@ -62,6 +62,7 @@
 import Vue from 'vue';
 import hljs from '@/components/afancy/hljs.vue';
 export default Vue.extend({
+  layout: 'docs',
   components: {hljs},
   head() {
     return {

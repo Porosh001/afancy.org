@@ -38,6 +38,7 @@
 <script>
 import hljs from '@/components/afancy/hljs.vue';
 export default {
+  layout: 'docs',
   components: {hljs},
   head() {
     return {
