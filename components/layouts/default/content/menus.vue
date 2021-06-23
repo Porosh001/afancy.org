@@ -1,7 +1,7 @@
 <template>
   <div>
 
-    <div class='list-group border-0'>
+    <div class='list-group border-0 mt-2'>
       <nuxt-link 
         class='list-group-item rounded-0 border-success bg-transparent link-hover text-light'
         v-for='(e, i) in menus'
@@ -29,12 +29,28 @@ export default Vue.extend({
           path: '/docs/installation'
         },
         {
-          name: 'Notification',
-          path: '/docs/notification'
+          name: 'Colors',
+          path: '/docs/colors'
+        },
+        {
+          name: 'Background',
+          path: '/docs/background'
+        },
+        {
+          name: 'Text',
+          path: '/docs/text'
         },
         {
           name: 'Cursor',
           path: '/docs/cursor'
+        },
+        {
+          name: 'Scrollbar',
+          path: '/docs/scrollbar'
+        },
+        {
+          name: 'Notification',
+          path: '/docs/notification'
         }
       ]
     }
