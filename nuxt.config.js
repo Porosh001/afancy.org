@@ -1,7 +1,8 @@
 let APP_NAME    = 'Afancy';
 let APP_URL     = "http://localhost:3000";
+let APP_Version = "v1.1.0";
 let Last_Updated_Flag      = "https://cdn.jsdelivr.net/npm/organized-data@2.0.0/flags/svg/bd.svg";
-let Last_Updated_DateTime  = "UTC+6 2021-June-22 01:36:02";
+let Last_Updated_DateTime  = "UTC+6 2021-June-24 04:07:56";
 
 export default {
   telemetry: false,
@@ -102,6 +103,7 @@ export default {
       APP_NAME,
       APP_TITLE: " || "+APP_NAME,
       APP_URL,
+      APP_Version,
       Last_Updated_Flag,
       Last_Updated_DateTime,
     }
