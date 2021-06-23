@@ -36,9 +36,8 @@ export default {
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
-    '@afancy/afancy/dist/css/afancy.css',
     'highlight.js/styles/devibeans.css'
-  ],
+  ], 
 
   loading: {
     color: 'blue',
