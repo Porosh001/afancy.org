@@ -97,7 +97,5 @@ sw.*
 ### added by imithu
 #
 plugins/afancy.js
-page/test1.vue
-page/test2.vue
-page/test3.vue
+pages/test*.vue
 
