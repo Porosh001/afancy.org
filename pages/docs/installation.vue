@@ -10,7 +10,7 @@
       <li>TypeScript Knowledge (optional)</li>
     </ul>
 
-    <hljs lang='sh'>
+    <hljs lang='bash'>
     # install afancy in nuxt application
     yarn add @afancy/afancy
     # or

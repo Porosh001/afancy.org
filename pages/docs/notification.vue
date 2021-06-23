@@ -11,7 +11,7 @@
 
     <ntfc ref='ntfc' />
 
-    <hljs lang='html'>
+    <hljs lang='xml'>
     &lt;!-- template --&gt;
     &lt;ntfc ref=&apos;ntfc&apos; /&gt;
     </hljs>
