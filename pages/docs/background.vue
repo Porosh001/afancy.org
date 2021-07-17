@@ -6,41 +6,41 @@
     <div class="fs-4 text-primary">Background Color</div>
     <div class='my-2'>Afancy has mainly 6 classes for background color</div>
     <div class="row gy-3">
-      <div class="col-4"><div class='box text-center pt-2 bg-primary'>.bg-primary</div></div>
-      <div class="col-4"><div class='box text-center pt-2 bg-success'>.bg-success</div></div>
-      <div class="col-4"><div class='box text-center pt-2 bg-danger'>.bg-danger</div></div>
-      <div class="col-4"><div class='box text-center pt-2 text-black bg-warning'>.bg-warning</div></div>
-      <div class="col-4"><div class='box text-center pt-2 text-black bg-light'>.bg-light</div></div>
-      <div class="col-4"><div class='box text-center pt-2 bg-black'>.bg-black</div></div>
+      <div class="col-4"><div class='box text-center pt-2 fnc-bg-primary'>.fnc-bg-primary</div></div>
+      <div class="col-4"><div class='box text-center pt-2 fnc-bg-success'>.fnc-bg-success</div></div>
+      <div class="col-4"><div class='box text-center pt-2 fnc-bg-danger'>.fnc-bg-danger</div></div>
+      <div class="col-4"><div class='box text-center pt-2 text-black fnc-bg-warning'>.fnc-bg-warning</div></div>
+      <div class="col-4"><div class='box text-center pt-2 text-black fnc-bg-light'>.fnc-bg-light</div></div>
+      <div class="col-4"><div class='box text-center pt-2 fnc-bg-black'>.fnc-bg-black</div></div>
     </div>
     <hljs class='mt-3' lang='css'>
     /** background-color classes */
-    .bg-primary
-    .bg-success
-    .bg-danger
-    .bg-warning
-    .bg-light
-    .bg-black
+    .fnc-bg-primary
+    .fnc-bg-success
+    .fnc-bg-danger
+    .fnc-bg-warning
+    .fnc-bg-light
+    .fnc-bg-black
     </hljs>
 
     <div class="fs-4 mt-5 text-primary">Background Hover Color</div>
     <div class='my-2'>move the mouse over the box</div>
     <div class="row gy-3">
-      <div class="col-4"><div class='box text-center pt-2 border border-primary hover-bg-primary'>.bg-primary</div></div>
-      <div class="col-4"><div class='box text-center pt-2 border border-success hover-bg-success'>.bg-success</div></div>
-      <div class="col-4"><div class='box text-center pt-2 border border-danger  hover-bg-danger'>.bg-danger</div></div>
-      <div class="col-4"><div class='box text-center pt-2 border border-warning hover-bg-warning'>.bg-warning</div></div>
-      <div class="col-4"><div class='box text-center pt-2 border border-light   hover-bg-light hover-text-black'>.bg-light</div></div>
-      <div class="col-4"><div class='box text-center pt-2 border                hover-bg-black' style='border: 3px solid #000 !important;' >.bg-black</div></div>
+      <div class="col-4"><div class='box text-center pt-2 border border-primary fnc-hover-bg-primary'>.fnc-bg-primary</div></div>
+      <div class="col-4"><div class='box text-center pt-2 border border-success fnc-hover-bg-success'>.fnc-bg-success</div></div>
+      <div class="col-4"><div class='box text-center pt-2 border border-danger  fnc-hover-bg-danger'>.fnc-bg-danger</div></div>
+      <div class="col-4"><div class='box text-center pt-2 border border-warning fnc-hover-bg-warning'>.fnc-bg-warning</div></div>
+      <div class="col-4"><div class='box text-center pt-2 border border-light   fnc-hover-bg-light fnc-hover-text-black'>.fnc-bg-light</div></div>
+      <div class="col-4"><div class='box text-center pt-2 border                fnc-hover-bg-black' style='border: 3px solid #000 !important;' >.fnc-bg-black</div></div>
     </div>
     <hljs class='mt-3' lang='css'>
     /** background color classes in hover state */
-    .hover-bg-primary
-    .hover-bg-success
-    .hover-bg-danger
-    .hover-bg-warning
-    .hover-bg-light
-    .hover-bg-black
+    .fnc-hover-bg-primary
+    .fnc-hover-bg-success
+    .fnc-hover-bg-danger
+    .fnc-hover-bg-warning
+    .fnc-hover-bg-light
+    .fnc-hover-bg-black
     </hljs>
 
 
