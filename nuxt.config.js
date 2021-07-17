@@ -24,14 +24,14 @@ export default {
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
       // header
         // bootstrap + bootstrap icons
-          { rel: 'stylesheet', href: '/core/bootstrap_v5_0_1/css/bootstrap.min.css' },
+          { rel: 'stylesheet', href: '/core/bootstrap-5.0.2-dist/css/bootstrap.min.css' },
           { rel: 'stylesheet', href: 'https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css' }
     ],
     script: [
       // header
       // footer
         // bootstrap
-          { src: "/core/bootstrap_v5_0_1/js/bootstrap.bundle.min.js", body: true }
+          { src: "/core/bootstrap-5.0.2-dist/js/bootstrap.bundle.min.js", body: true }
     ]
   },
 
