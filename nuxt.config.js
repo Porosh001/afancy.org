@@ -57,8 +57,7 @@ export default {
   buildModules: [
     '@nuxt/typescript-build',
     '@nuxtjs/moment',
-    '@nuxtjs/google-fonts',
-    '@nuxtjs/google-analytics'
+    '@nuxtjs/google-fonts'
   ],
   modules: [
     '@nuxtjs/axios',
@@ -82,11 +81,6 @@ export default {
   },
 
 
-
-
-  googleAnalytics: {
-    id: 'UA-199988887-1'
-  },
 
 
   googleFonts: {

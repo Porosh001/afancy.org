@@ -20,7 +20,6 @@
   "devDependencies": {
     "@nuxt/types": "^2.15.3",
     "@nuxt/typescript-build": "^2.1.0",
-    "@nuxtjs/google-analytics": "^2.4.0",
     "@nuxtjs/moment": "^1.6.1"
   }
 }
