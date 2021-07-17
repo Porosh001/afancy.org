@@ -5,7 +5,7 @@
     <div class='fs-4 text-success'>Requirement:</div>
     <ul>
       <li>Nuxt framework</li>
-      <li>Bootstrap framework</li>
+      <li>Bootstrap v5.0.2</li>
     </ul>
 
     <hljs lang='bash'>
