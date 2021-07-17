@@ -54,14 +54,6 @@
     .text-end
     </hljs>
 
-    <div class="fs-4 mt-5 text-primary">text transform</div>
-    <hljs class='mt-3' lang='css'>
-    /** text transform classes */
-    .text-lowercase
-    .text-uppercase
-    .text-capitalize
-    </hljs>
-
     <div class="fs-4 mt-5 text-primary">text highlight</div>
     <hljs class='mt-3' lang='css'>
     /** text highlight classes */
