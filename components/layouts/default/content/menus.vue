@@ -47,6 +47,10 @@ export default Vue.extend({
         {
           name: 'Scrollbar',
           path: '/docs/scrollbar'
+        },
+        {
+          name: 'Grid',
+          path: '/docs/grid'
         }
       ]
     }
