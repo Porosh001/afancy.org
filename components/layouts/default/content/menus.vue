@@ -47,10 +47,6 @@ export default Vue.extend({
         {
           name: 'Scrollbar',
           path: '/docs/scrollbar'
-        },
-        {
-          name: 'Notification',
-          path: '/docs/notification'
         }
       ]
     }
