@@ -4,7 +4,7 @@
     <div class="h1 text-center text-primary" style='font-family: Fredericka the Great;'>Installation</div>
     <div class='fs-4 text-success'>Requirement:</div>
     <ul>
-      <li>Nuxt framework</li>
+      <li>Vue</li>
       <li>Bootstrap v5.0.2</li>
     </ul>
 
