@@ -55,6 +55,10 @@ export default Vue.extend({
         {
           name: 'Placeholder',
           path: '/docs/placeholder'
+        },
+        {
+          name: 'Contributors',
+          path: '/docs/contributors'
         }
       ]
     }
