@@ -51,6 +51,10 @@ export default Vue.extend({
         {
           name: 'Grid',
           path: '/docs/grid'
+        },
+        {
+          name: 'Placeholder',
+          path: '/docs/placeholder'
         }
       ]
     }
