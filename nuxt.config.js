@@ -1,6 +1,6 @@
 let APP_NAME    = 'Afancy';
 let APP_URL     = "http://localhost:3000";
-let APP_Version = "v1.2.0";
+let APP_Version = "v1.3.0";
 
 export default {
   telemetry: false,
